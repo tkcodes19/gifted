@@ -9,7 +9,7 @@ const config = {
   KOYEB_API_TOKEN: process.env.KOYEB_API_TOKEN || "",
   KOYEB_APP_NAME: process.env.KOYEB_APP_NAME || "",
   DEPLOYMENT_PLATFORM: process.env.DEPLOYMENT_PLATFORM || "",
-  AUTO_READ_STATUS: process.env.AUTO_READ_STATUS !== undefined ? process.env.AUTO_READ_STATUS === 'true' : true, 
+  AUTO_READ_STATUS: process.env.AUTO_READ_STATUS !== undefined ? process.env.AUTO_READ_STATUS === 'false' : true, 
   AUTO_STICKER: process.env.AUTO_STICKER !== undefined ? process.env.AUTO_STICKER === 'false' : false,
   AUTO_DOWNLOAD: process.env.AUTO_DOWNLOAD !== undefined ? process.env.AUTO_DOWNLOAD === 'false' : false,
   AUTO_READ: process.env.AUTO_READ !== undefined ? process.env.AUTO_READ === 'true' : false,
